@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback - Student Feedback System</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Give Your Feedback</h1>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="feedback-form">
+    <form>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Course</label>
+      <input type="text" placeholder="Enter your course" required>
+
+      <label>Teacher Name</label>
+      <input type="text" placeholder="Enter teacher's name" required>
+
+      <label>Rate the Teaching Quality</label>
+      <select required>
+        <option>Select rating</option>
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+      </select>
+
+      <label>Additional Comments</label>
+      <textarea placeholder="Write your feedback here..." rows="5"></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Student Feedback System | Designed by Kushan</p>
+  </footer>
+</body>
+</html>
